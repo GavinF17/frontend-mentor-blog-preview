@@ -15,6 +15,7 @@
             font-weight: 500;
             src: url("assets/fonts/static/Figtree-Medium.ttf") format("truetype");
         }
+
         @font-face {
             font-family: "Figtree";
             font-weight: 700;
@@ -63,7 +64,7 @@
 
             background-color: var(--white);
             border-radius: 20px;
-            box-shadow:0 0 0 1px black inset;
+            box-shadow: 0 0 0 1px black inset;
             filter: drop-shadow(8px 8px var(--gray-950));
 
             > img {
@@ -91,6 +92,12 @@
                 font-size: 24px;
                 line-height: 1.5;
                 font-weight: 800;
+                text-decoration: none;
+                color: var(--gray-950);
+
+                &:hover, &:focus, &:active {
+                    color: var(--yellow);
+                }
             }
 
             .summary {
@@ -120,7 +127,7 @@
     <div class="content">
         <div class="category">Learning</div>
         <div class="date">Published 21 Dec 2023</div>
-        <h1 class="title">HTML & CSS foundations</h1>
+        <a class="title" href="#">HTML & CSS foundations</a>
         <div class="summary">
             These languages are the backbone of every
             website, defining structure, content, and

@@ -19,7 +19,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-[//]: # (- [Solution URL]&#40;https://www.frontendmentor.io/solutions/qr-code-using-html-and-css-with-flexbox-uXJ6cxeiMU&#41;)
+- [Solution URL](https://www.frontendmentor.io/solutions/blog-preview-using-html-and-css-with-flexbox-D_hoXHX3yc)
 - [Live Site](https://blog-preview.fm.gavinfenton.com)
 
 ## My process
